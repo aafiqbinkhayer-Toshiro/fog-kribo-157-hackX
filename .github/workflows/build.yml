@@ -9,7 +9,7 @@ jobs:
       - name: Build
         uses: dabao1955/kernel_build_action@main
         with:
-          kernel-url: https://github.com/aafiqbinkhayer-Toshiro/fog-kribo-157-hackX/tree/fog-devel
+          kernel-url: https://github.com/aafiqbinkhayer-Toshiro/fog-kribo-157-hackX
           kernel-branch: fog-devel
           config: fog-perf_defconfig
           arch: arm64
